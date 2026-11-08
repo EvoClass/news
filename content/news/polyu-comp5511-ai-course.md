@@ -2,7 +2,7 @@
 title: 从一盘棋到 AI 智能体：走进 PolyU COMP5511 人工智能课程
 slug: polyu-comp5511-ai-course
 date: 2026-11-08
-category: guide
+category: course
 language: zh_CN
 translation_key: polyu-comp5511-ai-course
 source_language: zh_CN

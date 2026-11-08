@@ -9,7 +9,7 @@ from urllib.parse import urlsplit
 FIELDS = set("title slug excerpt category tags language translation_key source_language author_name cover_url cover_alt date draft".split())
 REQUIRED = FIELDS - {"tags", "cover_url", "cover_alt"}
 LANGUAGES = set("en es fr id it ja ko pt ru th vi zh_CN zh_HK".split())
-CATEGORIES = {"news", "release", "guide", "practice", "research"}
+CATEGORIES = {"course", "practice", "guide", "release", "research", "news"}
 SECRET = re.compile(r"(?:sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----)")
 
 

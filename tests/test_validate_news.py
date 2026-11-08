@@ -26,6 +26,11 @@ Read the [official source](https://evoclass.ai/news).
 
 
 class NewsValidationTest(unittest.TestCase):
+    def test_editorial_sections_include_course_guides(self):
+        for category in ["course", "practice", "guide", "release", "research", "news"]:
+            with self.subTest(category=category):
+                self.assertEqual(parse(ARTICLE.replace("category: news", "category: " + category))["category"], category)
+
     def test_month_and_exact_date(self):
         self.assertEqual(parse(ARTICLE)["date"], "2025-11")
         self.assertEqual(parse(ARTICLE.replace("2025-11", "2024-02-29"))["date"], "2024-02-29")

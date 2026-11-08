@@ -2,7 +2,7 @@
 title: 那只猫为什么不一样？走进 AI000 儿童 AI 启蒙课
 slug: ai000-my-little-ai-agent
 date: 2026-11-08
-category: guide
+category: course
 language: zh_CN
 translation_key: ai000-my-little-ai-agent
 source_language: zh_CN
