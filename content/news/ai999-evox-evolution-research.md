@@ -8,7 +8,7 @@ translation_key: ai999-evox-evolution-research
 source_language: zh_CN
 author_name: EvoClass
 tags: ["AI999", "EvoX", "演化计算", "AI Native 科研"]
-excerpt: AI 给出一个方案之后，研究怎样继续？EvoClass AI999《EvoX 智能演化系统与 AI Native 科研实践》从多目标权衡、批量并行和方法演化展开，将注意力带回问题定义、评价设计，以及能够被下一次实验继承的结果。
+excerpt: 从翼型设计的多目标权衡出发，走进 AI999，理解并行计算、方法演化与科研验证怎样支持持续实验。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/main/assets/news/ai999-candidate-evolution-v1.webp
 cover_alt: 概念插画：研究者比较多种翼型候选，红线连接探索与反馈。非气动实测数据。
 draft: false
