@@ -5,50 +5,33 @@
 EvoClass 官方新闻与动态的公开 Markdown 内容仓库。
 Official Markdown source for EvoClass news and updates.
 
-- 官网：[evoclass.ai](https://evoclass.ai)
-- 新闻：[evoclass.ai/news](https://evoclass.ai/news)
-- 发布分支：`main`
-- 文章目录：[`content/news/`](content/news/)
-- 文章模板：[`docs/news-template.md`](docs/news-template.md)
+[官网](https://evoclass.ai) · [阅读新闻](https://evoclass.ai/news) · [文章源文件](content/news/)
 
-## 发布新闻
+## 投稿与发布
 
-1. 复制模板，填写标题、摘要、原始发布日期、分类和语言。
-2. 将 `.md` 文件上传到 `content/news/`，或通过 Pull Request 合并到 `main`。
-3. 设置 `draft: false`；原文的 `language` 与 `source_language` 应一致。
-4. 应用同步开启后，约每 5 分钟读取更新，自动补齐主站支持的 13 种语言，校验通过后整批发布。
+1. 复制 [新闻模板](docs/news-template.md)，在 `content/news/` 新建 `.md` 文件。
+2. 填写真实的原始发布日期、事实来源、摘要与分类。只知道月份时使用 `date: 2025-11`，不要补成月初或改成上传日期。
+3. 在独立分支提交 Pull Request，按 [作者与审核指南](CONTRIBUTING.md) 完成检查。
+4. 内容准备好后设为 `draft: false`。自动检查通过，并由至少一名其他维护者批准后，才能合并到 `main`。
+5. 主站同步和翻译服务配置完成后，会读取 `main/content/news/` 的更新，自动翻译并发布。通常每 5 分钟检查更新，翻译另需时间；合并成功不等于网站已更新。
 
-译文准备需要额外时间，失败时保留上一版公开内容并在后续同步重试。
-译文及翻译缓存存储在应用数据库，不回写本仓库。
-主站菜单负责语言切换，缺少译本时回退到可用版本。
-原文的首次发布日期不会因翻译生成而改变。
+`main` 是发布分支，禁止绕过审核直接推送。自动检查验证格式，人工审核负责事实、权利、措辞和发布时机。
 
-修改原文会触发译文更新；删除原文或设为草稿会撤回原文及其自动译本。
-人工上传的译本优先，独立遵循自己的发布状态。
-首次发布后保留 `slug`、`translation_key`、`language` 和 `source_language`，避免改变文章身份和永久链接。
+**这是公开仓库。草稿、分支、PR、提交历史和删除前的内容都可能被看到或保留。** `draft: true` 仅阻止主站发布，不提供保密能力。未公开计划、学生信息、密钥、服务器配置及其他保密材料不得上传；请先在私有渠道完成内部审阅。
 
-本仓库为公开仓库，只提交可公开的文章和素材，不要提交 API 密钥、服务器环境文件、个人信息或未获准公开的材料。
-说明文档和模板放在 `docs/`，不要放进会被自动发布的 `content/news/`。
-不需要在本仓库配置 GitHub Actions 翻译，也不需要仓库写入令牌。
+## 多语言与修订
 
-## 应用配置
+仓库存放原文及必要的人工译本。主站服务自动补齐支持的 13 种语言，译文保存在应用中，不回写此仓库。读者通过主站菜单切换语言，缺少译本时回退到可用版本。自动翻译不替代事实审核；发现译文有误可提交人工译本或报告问题。
 
-部署同事在 EvoClass 应用进程中配置以下变量，重启应用后在新闻管理页执行首次同步：
+原文修改会触发译文更新；翻译或校验失败时保留上一版已发布内容，随后重试。删除原文或改为草稿会撤回原文及其自动译本；人工译本需单独处理。首次发布后保留文章身份字段及原始日期，具体规则见 [作者指南](CONTRIBUTING.md)。
 
-```dotenv
-NEWS_GITHUB_SYNC=true
-NEWS_GITHUB_REPOSITORY=EvoClass/news
-NEWS_GITHUB_BRANCH=main
-NEWS_GITHUB_PATH=content/news
-NEWS_AUTO_TRANSLATE=true
-NEWS_TRANSLATION_MODEL=deepseek:deepseek-v4-flash
-# DEEPSEEK_API_KEY 通过服务器的私有环境文件配置，不要写入本仓库。
-```
+发布维护者应在合并后检查主站正文、日期和语言切换。同步故障由部署维护者在应用后台排查，服务器凭据和部署操作说明不放在本公开仓库。
 
-公开仓库可匿名读取；为提高 GitHub API 配额，可在服务器另设具有本仓库 Contents 只读权限的 `NEWS_GITHUB_TOKEN`。
-详细迁移、同步、翻译、语言切换和 SEO 验收步骤，见应用仓库的 [中文部署指南](https://github.com/EvoClass/evoclass/blob/main/docs/news-deployment.md)（需要应用仓库访问权限）。
-若应用环境仍显式配置旧来源 `EvoClass/evoclass`，须改为 `EvoClass/news`；仅更新应用默认值不会覆盖已有环境变量。
+## 模板与使用说明
 
-可选 Webhook：在本仓库设置 `push` 事件，目标为 `https://evoclass.ai/api/news/github/webhook`，Content type 为 `application/json`。
-Secret 与应用的 `NEWS_GITHUB_WEBHOOK_SECRET` 一致，至少 16 字节，并保持 SSL 验证开启。
-Webhook 仅触发同步，发布是否完成以应用后台“同步正常”和线上正文为准。
+- [作者与审核指南](CONTRIBUTING.md)：分类、日期、翻译、修订和发布验收。
+- [新闻模板](docs/news-template.md)：事件导语、背景、具体进展及来源。
+- [转载与内容使用说明](CONTENT_POLICY.md)：引用、转载申请和第三方素材。
+- [Logo 使用说明](BRAND_GUIDELINES.md)：官方素材、署名与品牌使用边界。
+
+本仓库公开可读，但不授予通用的开源或自由转载许可。内容与品牌素材的使用分别遵循以上说明。

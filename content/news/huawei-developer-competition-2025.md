@@ -1,7 +1,7 @@
 ---
 title: EvoClass Team Wins Society and Sustainability Championship at Huawei Developer Competition 2025 APAC
 slug: huawei-developer-competition-2025
-date: 2025-11-01
+date: 2025-11
 category: news
 language: en
 translation_key: huawei-developer-competition-2025
