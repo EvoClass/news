@@ -2,7 +2,7 @@
 title: 从找到课程到回到错题：EvoClass 学习旅程更新
 slug: release-learning-journey-202611
 date: 2026-11-08
-# 本批为历史回顾草稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
+# 本批为历史回顾稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
 category: release
 language: zh_CN
 translation_key: release-learning-journey-202611
@@ -12,7 +12,7 @@ tags: ["产品更新", "学习中心", "课程进度", "错题复习", "新手�
 excerpt: 找到一门课、从上次的位置继续、回看做错的题，本应是一条连贯路径。回顾 EvoClass 2026 年 9 月至 11 月的课程详情、学习进度、复习入口、新手引导与学生面板更新。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/62cdd549fd1cdbfdc048e2c0972d601acf4b6a0c/assets/news/release-learning-journey-202611-v1.webp
 cover_alt: 概念插画：红色路径穿过折叠的学习地图，从课程书页回到标记过的错题卡，再通向重新整理的答案。
-draft: true
+draft: false
 ---
 
 昨天的课学到一半，今天想接着往下走。打开平台后，却先要想一遍：是哪门课、哪一课时、哪一页？

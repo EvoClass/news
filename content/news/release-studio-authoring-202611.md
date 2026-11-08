@@ -2,7 +2,7 @@
 title: 有了材料，离一堂课还有多远：EvoClass Studio 课件制作更新
 slug: release-studio-authoring-202611
 date: 2026-11-05
-# 本批为历史回顾草稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
+# 本批为历史回顾稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
 category: release
 language: zh_CN
 translation_key: release-studio-authoring-202611
@@ -12,7 +12,7 @@ tags: ["产品更新", "EvoClass Studio", "AI 备课", "课件制作", "教学�
 excerpt: 资料整理成页面之后，还需要核对结构、修改表达、准备讲义。回顾 EvoClass Studio 截至 2026 年 11 月 5 日的更新：从材料与大纲，到可调整的课件、教学配图和多种导出成果。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/62cdd549fd1cdbfdc048e2c0972d601acf4b6a0c/assets/news/release-studio-authoring-202611-v1.webp
 cover_alt: 概念插画：教师在桌面上将来源材料整理成课件卡片，再配成讲义，红色铅笔线连接备课的不同阶段。
-draft: true
+draft: false
 ---
 
 桌上已经有一份教材、一组参考幻灯片和几页补充阅读。内容并不少，但明天的课仍然没有准备好。

@@ -2,7 +2,7 @@
 title: 读完一句英语之后：EvoClass 跟读反馈与个人单词本更新
 slug: release-english-pronunciation-202611
 date: 2026-11-07
-# 本批为历史回顾草稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
+# 本批为历史回顾稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
 category: release
 language: zh_CN
 translation_key: release-english-pronunciation-202611
@@ -12,7 +12,7 @@ tags: ["产品更新", "英语跟读", "发音反馈", "个人单词本", "拍�
 excerpt: 听过示范、试着读出一句话，然后怎样继续练习？EvoClass 在 2026 年 11 月接入教材跟读、录音回听、发音评分和个人单词本，把课堂遇到的词带到后续复习中；具体可用功能以课程与账号中的入口为准。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/62cdd549fd1cdbfdc048e2c0972d601acf4b6a0c/assets/news/release-english-pronunciation-202611-v1.webp
 cover_alt: 概念插画：孩子与成人围绕鸟类读物听读和录音，声音带回到页面，新词卡被放入词汇托盘。
-draft: true
+draft: false
 ---
 
 设想孩子指着一幅鸟的图片，跟着示范音读出一句英语。读完之后，房间安静下来。

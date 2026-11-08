@@ -2,7 +2,7 @@
 title: AI 讲到了下一页，学生还停在这里：EvoClass 伴学节奏更新
 slug: release-ai-companion-202609
 date: 2026-09-20
-# 本批为历史回顾草稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
+# 本批为历史回顾稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
 category: release
 language: zh_CN
 translation_key: release-ai-companion-202609
@@ -12,7 +12,7 @@ tags: ["产品更新", "AI 伴学", "AI 答疑", "语音讲解"]
 excerpt: 讲解再流畅，也需要跟上学习者当前的页面与节奏。回顾 EvoClass 2026 年 8–9 月的伴学更新：角色声音、音量和语速控制，以及 AI 答疑对当前课件页的上下文感知。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/62cdd549fd1cdbfdc048e2c0972d601acf4b6a0c/assets/news/release-ai-companion-202609-v1.webp
 cover_alt: 概念插画：戴耳机的学习者用笔指向课本，红色声音带放慢节奏并落在同一页，旁边放着音量旋钮和节拍器。
-draft: true
+draft: false
 ---
 
 设想正在听一段物理讲解。声音清楚，解释也连贯，但你仍盯着图中那根细线：它表示力的方向，还是物体的运动？

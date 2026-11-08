@@ -2,7 +2,7 @@
 title: 把学过的知识找回来：EvoClass 笔记、课时摘要与搜索更新
 slug: release-learning-recall-202606
 date: 2026-06-16
-# 本批为历史回顾草稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
+# 本批为历史回顾稿，date 按作者要求对应研发里程碑；实际整理于 2026-11-08，不主张当日已有原文发布。
 category: release
 language: zh_CN
 translation_key: release-learning-recall-202606
@@ -12,7 +12,7 @@ tags: ["产品更新", "学习笔记", "课时摘要", "课件搜索"]
 excerpt: 明明学过，却想不起在哪一课。回顾 2026 年 5–6 月的 EvoClass 更新：用富文本笔记留下自己的理解，用课时摘要定位内容，再通过全文搜索回到具体知识点。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/62cdd549fd1cdbfdc048e2c0972d601acf4b6a0c/assets/news/release-learning-recall-202606-v1.webp
 cover_alt: 概念插画：红色书签线连接学习笔记与放大镜下的植物图示，表现重新找到学过的知识。
-draft: true
+draft: false
 ---
 
 上课时，一张图似乎已经看懂了。几天后再遇到同一个问题，只记得老师讲过，却想不起它藏在哪一课、哪一页。
