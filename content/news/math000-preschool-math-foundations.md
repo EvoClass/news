@@ -2,7 +2,7 @@
 title: 拉开以后，真的变多了吗？走进 MATH000 学前数学基础课
 slug: math000-preschool-math-foundations
 date: 2026-11-08
-category: guide
+category: course
 language: zh_CN
 translation_key: math000-preschool-math-foundations
 source_language: zh_CN

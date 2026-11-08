@@ -2,7 +2,7 @@
 title: 从一句“唔該”开始：把粤语带进香港的日常生活
 slug: chn000-everyday-cantonese-hong-kong
 date: 2026-11-08
-category: guide
+category: course
 language: zh_CN
 translation_key: chn000-everyday-cantonese-hong-kong
 source_language: zh_CN

@@ -35,3 +35,7 @@ Official Markdown source for EvoClass news and updates.
 - [Logo 使用说明](BRAND_GUIDELINES.md)：官方素材、署名与品牌使用边界。
 
 本仓库公开可读，但不授予通用的开源或自由转载许可。内容与品牌素材的使用分别遵循以上说明。
+
+## 文章分类
+
+按读者查找内容的顺序设置：**课程导读 → 教学实践 → 使用指南 → 产品更新 → 技术与研究 → EvoClass 动态**。课程介绍与课时导读使用 `category: course`；平台功能操作使用 `guide`。主站只显示有已发布内容的分类，翻译及回退规则保持一致。详细规则见 [作者与审核指南](CONTRIBUTING.md#正文与翻译)。

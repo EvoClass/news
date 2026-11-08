@@ -2,7 +2,7 @@
 title: 孩子问“种子怎么长大”，英语学习有了新的起点
 slug: eng005-science-english-pre-a1
 date: 2026-11-08
-category: guide
+category: course
 language: zh_CN
 translation_key: eng005-science-english-pre-a1
 source_language: zh_CN
