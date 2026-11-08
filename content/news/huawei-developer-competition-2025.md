@@ -9,6 +9,8 @@ source_language: en
 author_name: EvoClass
 tags: ["Huawei Developer Competition", "AI Education", "Multi-Agent Systems"]
 excerpt: The EvoClass team won the Society and Sustainability track at Huawei Developer Competition 2025 APAC. The award highlights its multi-agent education platform and classroom practice at The Hong Kong Polytechnic University.
+cover_url: https://raw.githubusercontent.com/EvoClass/news/main/assets/news/evoclass-award-v1.webp
+cover_alt: Conceptual illustration: an open book connects learning cards to a symbolic golden cup framed by paper laurels; this is not a photograph of the competition or its trophy.
 draft: false
 ---
 
