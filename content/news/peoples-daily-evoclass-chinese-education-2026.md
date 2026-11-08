@@ -10,7 +10,7 @@ author_name: EvoClass
 tags: ["媒体报道", "国际中文教育", "多智能体"]
 excerpt: 《人民日报海外版》关注 EvoClass 在国际中文教育论坛上的分享，介绍平台如何辅助教材处理与文化讲解，并探讨 AI 参与教学后教师的角色。
 cover_url: https://raw.githubusercontent.com/EvoClass/news/main/assets/news/chinese-education-dialogue-v1.webp
-cover_alt: 概念插画：展开的书页化作桥梁，连接教材内容与围桌交流的人们，表现技术辅助下的文化理解与教学对话；非论坛现场照片。
+cover_alt: 概念插画：书页化作桥梁，连接教材与围桌交流的人们。
 draft: false
 ---
 
