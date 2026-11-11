@@ -7,7 +7,7 @@ language: "zh_CN"
 translation_key: "eng004-story-time"
 source_language: "zh_CN"
 author_name: "EvoClass"
-tags: ["ENG004", "视觉化英语语法（时态专项）"]
+tags: ["ENG004", "英语时态", "英语语法"]
 excerpt: "用一般过去时交代发生的事，用过去进行时铺背景，再用完成时连接两个时间点。EvoClass 的 ENG004《视觉化英语语法（时态专项）》用时间轴、例句和练习，把这些选择放回说话的情境里。"
 cover_url: "https://raw.githubusercontent.com/EvoClass/news/main/assets/news/eng004-story-time-v1.webp"
 cover_alt: "暖灯照着窗前三幅连环插画，从等车、落雨到公交到站，画面下方连着一根细红线。"

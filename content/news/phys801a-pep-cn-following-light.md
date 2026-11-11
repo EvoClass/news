@@ -7,7 +7,7 @@ language: "zh_CN"
 translation_key: "phys801a-pep-cn-following-light"
 source_language: "zh_CN"
 author_name: "EvoClass"
-tags: ["PHYS801A-PEP-CN", "人教版初中物理八年级上"]
+tags: ["PHYS801A-PEP-CN", "初中物理", "光学"]
 excerpt: "铅笔浸入水中后的错位、镜子里的像和凸透镜的会聚，都可以沿着光的传播路径解释。EvoClass 的 PHYS801A-PEP-CN《人教版初中物理八年级上》把这些现象放进反射、折射与透镜课时里。"
 cover_url: "https://raw.githubusercontent.com/EvoClass/news/main/assets/news/phys801a-pep-cn-following-light-v1.webp"
 cover_alt: "窗边的透明水杯里斜放着一支红铅笔，浸在水中的部分在水面处看起来有轻微错位。"

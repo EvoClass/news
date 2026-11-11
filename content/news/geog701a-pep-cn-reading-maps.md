@@ -7,7 +7,7 @@ language: "zh_CN"
 translation_key: "geog701a-pep-cn-reading-maps"
 source_language: "zh_CN"
 author_name: "EvoClass"
-tags: ["GEOG701A-PEP-CN", "人教版初中地理七年级上册"]
+tags: ["GEOG701A-PEP-CN", "初中地理", "七年级"]
 excerpt: "地图上的距离、方向和等高线各能告诉我们什么？EvoClass 的 GEOG701A-PEP-CN《人教版初中地理七年级上册》从读地图出发，延伸到海陆变化、天气与气候，以及聚落怎样依地形形成。"
 cover_url: "https://raw.githubusercontent.com/EvoClass/news/main/assets/news/geog701a-pep-cn-reading-maps-v1.webp"
 cover_alt: "层叠的纸制山丘与等高线图并排，两条暖红色路线从坡度不同的两侧通往同一山顶。"

@@ -7,7 +7,7 @@ language: "zh_CN"
 translation_key: "econ001-history-of-risk"
 source_language: "zh_CN"
 author_name: "EvoClass"
-tags: ["ECON001", "与天为敌：风险的非凡故事"]
+tags: ["ECON001", "经济史", "风险与决策"]
 excerpt: "从帕斯卡和费马讨论的点数问题，到海上保险和奈特对不确定性的追问，EvoClass 的 ECON001《与天为敌：风险的非凡故事》带读者追溯人们如何用概率、记录和判断面对未知。"
 cover_url: "https://raw.githubusercontent.com/EvoClass/news/main/assets/news/econ001-history-of-risk-v1.webp"
 cover_alt: "一封带红色蜡印的折叠信件和摊开的账簿摆在木桌上，窗外一艘帆船驶出港口。"
