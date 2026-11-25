@@ -1,7 +1,9 @@
 ---
 title: "这一页的问题，留在这一课：EvoClass 课堂笔记与书签体验更新"
 slug: "classroom-notes-bookmarks-202611"
-date: "2026-11-25"
+date: "2026-11-23"
+# 历史归档日期依据：笔记范围、加载、草稿与书签改进正式部署；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "release"
 language: "zh_CN"
 translation_key: "classroom-notes-bookmarks-202611"

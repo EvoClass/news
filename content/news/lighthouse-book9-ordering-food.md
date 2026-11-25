@@ -1,7 +1,9 @@
 ---
 title: "读懂菜单之后，怎样用英语点一顿饭？"
 slug: "lighthouse-book9-ordering-food"
-date: "2026-11-25"
+date: "2026-11-08"
+# 历史归档日期依据：课程及配套练习的配音版本更新；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "course"
 language: "zh_CN"
 translation_key: "lighthouse-book9-ordering-food"

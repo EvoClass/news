@@ -1,7 +1,9 @@
 ---
 title: "把每个部分做好，为什么整体仍然可能出问题？从系统论看连接"
 slug: "systems-thinking-connections"
-date: "2026-11-25"
+date: "2026-05-17"
+# 历史归档日期依据：系统论课程内容修订；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "course"
 language: "zh_CN"
 translation_key: "systems-thinking-connections"

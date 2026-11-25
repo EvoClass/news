@@ -1,7 +1,9 @@
 ---
 title: "智能只在“大脑”里吗？从身体与环境读懂具身智能"
 slug: "embodied-intelligence-brain-body"
-date: "2026-11-25"
+date: "2026-04-19"
+# 历史归档日期依据：已包含本文所述课时的课程内容版本形成；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "course"
 language: "zh_CN"
 translation_key: "embodied-intelligence-brain-body"
