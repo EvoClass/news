@@ -1,7 +1,9 @@
 ---
 title: "课件做完之后，还能怎样改？EvoClass Studio 的持续备课流程"
 slug: "studio-continuous-authoring-202611"
-date: "2026-11-25"
+date: "2026-11-19"
+# 历史归档日期依据：Studio 本文所述改进的正式部署；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "release"
 language: "zh_CN"
 translation_key: "studio-continuous-authoring-202611"

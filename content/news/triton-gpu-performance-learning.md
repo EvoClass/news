@@ -1,7 +1,9 @@
 ---
 title: "代码算对了，为什么 GPU 还是不够快？从 Triton 学会检查性能"
 slug: "triton-gpu-performance-learning"
-date: "2026-11-25"
+date: "2026-03-31"
+# 历史归档日期依据：已包含本文所述课时的课程内容版本形成；非本文首次发稿日。
+# 本文实际整理及首次发布：2026-11-25。
 category: "course"
 language: "zh_CN"
 translation_key: "triton-gpu-performance-learning"
